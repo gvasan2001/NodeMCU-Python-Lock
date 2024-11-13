@@ -1,0 +1,221 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 20px 0;
+}
+header menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu-list li {
+    margin-left: 20px;
+}
+
+.menu-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-list a:hover {
+    color: #f4f4f9;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+/* Section form styling */
+section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section form h1{
+    margin-bottom: 18px;
+}
+
+section form input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+section form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.main-list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+}
+
+.list li:first-child {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.list li {
+    margin: 5px 0;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #444;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Lock Control Form */
+.lock-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px 25px;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Text */
+.input-text {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.input-text:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 12px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Status Text */
+.status-text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.2em;
+    color: #444;
+    font-weight: bold;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+}

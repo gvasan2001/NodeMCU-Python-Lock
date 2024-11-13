@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock Security </title>
+    <link rel="icon" href="../static/img/logo.svg">
+    <link rel="stylesheet" href="../static/css/style2.css">
+</head>
+<body>
+        
+            <header>
+                <menu>
+                    <div class="logo">
+                <img src="../static/img/logo.svg" alt="">
+                <h1>Lock Security </h1>
+                    </div>
+                    <ul class="menu-list">
+                        <li><a href="/">LogOut</a></li>
+                    </ul>
+                </menu>
+            </header>
+            
+     <div class="main-box">
+           
+        <h1 class="section-title">Lock Control</h1>
+    
+        <form action="/led/on" method="post" class="lock-form">
+            <input type="text" name="box1" class="input-text">
+            <button type="submit" class="submit-button">Lock Open</button>
+            <a href="/led" class="submit-button">lock Close</a>
+        </form>
+    
+        
+        <div id="status" class="status-text">Status: {{ status }}</div>
+     </div>
+
+
+
+
+
+
+
+            <footer>
+               <div class="main-list" >
+                <ul class="list">
+                    <li>category</li>
+                    <li>Web Design</li>
+                    <li>Graphical Design</li>
+                    <li>Web developers</li>
+                    <li>Python</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                  </ul>
+                  <ul class="list">
+                    <li>Company</li>
+                    <li>About Us</li>
+                    <li>Career</li>
+                    <li>Blog</li>
+                    <li>Resources</li>
+                  </ul>
+                  <ul class="list">
+                    <li>Support</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                    <li>Terms of Service</li>
+                  </ul>
+               </div>
+
+                  <p>Copyright &#169; gv_admin in 2024</p>
+            </footer>
+
+        
+  
+</body>
+</html>
+    
+

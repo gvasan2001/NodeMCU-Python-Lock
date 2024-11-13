@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Control</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px; }
+        #status { font-size: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>LED Control</h1>
+    <form action="/led/on" method="post">
+        <input type="text" name="box1">
+        <button type="submit">Turn LED ON</button>
+    </form>
+    <form action="/led/off" method="post">
+        <button type="submit">Turn LED OFF</button>
+    </form>
+    <div id="status">Status: {{ status }}</div>
+</body>
+</html>
